@@ -1,18 +1,23 @@
 ﻿# addon:fancybox de_de | de_de_utf8
 
-addon_name = Fancybox
+addon_name = Fancybox2
 
 addon_subpage_readme = Lies mich
 
 addon_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
 addon_subpage_readme_txt_01_01 = Enthält alle wichtigen Komponenten in den aktuellen Versionen:
-addon_subpage_readme_txt_01_02 = - jquery.fancybox-2.0.4.css
-addon_subpage_readme_txt_01_03 = - jquery.fancybox-2.0.4.js
-addon_subpage_readme_txt_01_04 = - jquery.fancybox.pack-2.0.4.js
-addon_subpage_readme_txt_01_05 = - jquery.mousewheel.pack-3.0.6.js
-addon_subpage_readme_txt_01_06 = - jquery.easyslider-1.7.5.css
-addon_subpage_readme_txt_01_07 = - jquery.easyslider-1.7.5.js
-addon_subpage_readme_txt_01_08 = Alle Dateien sind in .\files\addons\gs_fancybox\
+addon_subpage_readme_txt_01_02 = - jquery.fancybox.css
+addon_subpage_readme_txt_01_03 = - jquery.fancybox.js
+addon_subpage_readme_txt_01_04 = - jquery.fancybox.pack.js
+addon_subpage_readme_txt_01_05 = - jquery.mousewheel.pack.js
+addon_subpage_readme_txt_01_06 = - jquery.easyslider.css
+addon_subpage_readme_txt_01_07 = - jquery.easyslider.js
+addon_subpage_readme_txt_01_08 = - jquery.fancybox-buttons.css
+addon_subpage_readme_txt_01_09 = - jquery.fancybox-buttons.js
+addon_subpage_readme_txt_01_10 = - jquery.fancybox-media.js
+addon_subpage_readme_txt_01_11 = - jquery.fancybox-thumb.css
+addon_subpage_readme_txt_01_12 = - jquery.fancybox-thumb.js
+addon_subpage_readme_txt_01_13 = Alle Dateien sind in .\files\addons\gs_fancybox2\
 
 addon_subpage_readme_txt_02 = Fancybox - hinterlegte JS-Funktionen
 addon_subpage_readme_txt_02_01 = $("a.fancyboxStyleDefault").fancybox({...});

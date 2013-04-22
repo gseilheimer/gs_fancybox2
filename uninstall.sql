@@ -4,9 +4,9 @@
 #
 # Autor: 	G.Seilheimer
 # Company:	contic.de
-# Version: 	2.0.4
-# Update:	2012-01-14
-# CMS:		Redaxo 4.3.2
+# Version: 	1.0.7
+# Update:	2013-04-02
+# CMS:		Redaxo 4.4.1
 #
 #*********************************************
 
@@ -24,6 +24,8 @@ DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=623 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=624 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=625 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=626 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=627 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_types` WHERE `id`=628 LIMIT 1;
 
 #*********************************************
 #
@@ -38,6 +40,8 @@ DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=623 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=624 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=625 LIMIT 1;
 DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=626 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=627 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=628 LIMIT 1;
 
 #*********************************************
 #
@@ -45,4 +49,4 @@ DELETE FROM `%TABLE_PREFIX%679_type_effects` WHERE `id`=626 LIMIT 1;
 #
 #*********************************************
 
-DELETE FROM `%TABLE_PREFIX%template` WHERE `id`=620 LIMIT 1;
+DELETE FROM `%TABLE_PREFIX%template` WHERE `name` LIKE '%gs : fancybox2 (jquery)%' LIMIT 1;
