@@ -2,6 +2,12 @@
 
 gs_fancybox2_name = Fancybox2
 
+gs_fancybox2_subpage_index = Startseite
+
+gs_fancybox2_subpage_index_txt_01 = FancyBox 2.0.x
+gs_fancybox2_subpage_index_txt_01_01 = - In Lies mich finden Sie Details zum PlugIn
+gs_fancybox2_subpage_index_txt_01_02 = - In Module finden Sie Details zu den REX-Modulen
+
 gs_fancybox2_subpage_readme = Lies mich
 
 gs_fancybox2_subpage_readme_txt_01 = Fancybox - eingebundene Dateien
