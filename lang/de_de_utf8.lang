@@ -16,22 +16,22 @@ gs_fancybox2_subpage_readme_txt_01_02 = - jquery.fancybox.css
 gs_fancybox2_subpage_readme_txt_01_03 = - jquery.fancybox.js
 gs_fancybox2_subpage_readme_txt_01_04 = - jquery.fancybox.pack.js
 gs_fancybox2_subpage_readme_txt_01_05 = - jquery.mousewheel.pack.js
-gs_fancybox2_subpage_readme_txt_01_06 = - jquery.easyslider.css
-gs_fancybox2_subpage_readme_txt_01_07 = - jquery.easyslider.js
-gs_fancybox2_subpage_readme_txt_01_08 = - jquery.fancybox-buttons.css
-gs_fancybox2_subpage_readme_txt_01_09 = - jquery.fancybox-buttons.js
-gs_fancybox2_subpage_readme_txt_01_10 = - jquery.fancybox-media.js
-gs_fancybox2_subpage_readme_txt_01_11 = - jquery.fancybox-thumb.css
-gs_fancybox2_subpage_readme_txt_01_12 = - jquery.fancybox-thumb.js
+gs_fancybox2_subpage_readme_txt_01_06 = - jquery.easyslider.css // SLIDER
+gs_fancybox2_subpage_readme_txt_01_07 = - jquery.easyslider.js  // SLIDER
+gs_fancybox2_subpage_readme_txt_01_08 = - jquery.fancybox-buttons.css // OPTIONAL - Buttons
+gs_fancybox2_subpage_readme_txt_01_09 = - jquery.fancybox-buttons.js  // OPTIONAL - Buttons
+gs_fancybox2_subpage_readme_txt_01_10 = - jquery.fancybox-media.js // OPTIONAL - Media
+gs_fancybox2_subpage_readme_txt_01_11 = - jquery.fancybox-thumb.css // OPTIONAL - Thumbs
+gs_fancybox2_subpage_readme_txt_01_12 = - jquery.fancybox-thumb.js  // OPTIONAL - Thumbs
 gs_fancybox2_subpage_readme_txt_01_13 = Alle Dateien sind in .\files\addons\gs_fancybox2\
 
 gs_fancybox2_subpage_readme_txt_02 = Fancybox - hinterlegte JS-Funktionen
-gs_fancybox2_subpage_readme_txt_02_01 = $("a.fancyboxStyleDefault").fancybox({...});
-gs_fancybox2_subpage_readme_txt_02_02 = $("a.fancyboxStyleSpecial-1").fancybox({...});
-gs_fancybox2_subpage_readme_txt_02_03 = $("a.fancyboxStyleSpecial-2").fancybox({...});
-gs_fancybox2_subpage_readme_txt_02_04 = $("a.fancyboxStyleInline-1").fancybox({...});
-gs_fancybox2_subpage_readme_txt_02_05 = $("a.fancyboxStyleInline-2").fancybox({...});
-gs_fancybox2_subpage_readme_txt_02_06 = $("a.fancyboxStyleInline-3").fancybox({...});
+gs_fancybox2_subpage_readme_txt_02_01 = $("a.fancyboxStyleDefault").fancybox({...}); // Single Image
+gs_fancybox2_subpage_readme_txt_02_02 = $("a.fancyboxStyleSpecial").fancybox({...}); // Single Image
+gs_fancybox2_subpage_readme_txt_02_03 = $("a.fancyboxStyleGalerieSpecial-1").fancybox({...}); // Image Galery
+gs_fancybox2_subpage_readme_txt_02_04 = $("a.fancyboxStyleGalerieSpecial-2").fancybox({...}); // Image Galery
+gs_fancybox2_subpage_readme_txt_02_05 = $("a.fancyboxStyleInlineDefault").fancybox({...}); // Inline Content
+gs_fancybox2_subpage_readme_txt_02_06 = $("a.fancyboxStyleInlineSpecial").fancybox({...}); // Inline Content
 gs_fancybox2_subpage_readme_txt_02_07 = Alle Script-Angaben stehen NUR im HEADER und sind im TEMPALTE z.B. mit der ID=620 zu finden.
 gs_fancybox2_subpage_readme_txt_02_08 = WEITERE HINWEISE ENTNEHMEN SIE BITTE DEM INSTALLATIONSTEIL...
 
