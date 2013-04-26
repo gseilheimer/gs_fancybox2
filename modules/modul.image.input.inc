@@ -284,6 +284,10 @@ if( OOAddon::isAvailable('image_manager') && OOAddon::isAvailable('gs_fancybox2'
             <p>
                <input type="text" name="VALUE[16]" value="REX_VALUE[16]" size="30" class="inp100"/>
             </p>
+            <h3>Link Intern auswählen (Pop-Up)</h3>
+            <p>
+               REX_LINK_BUTTON[1]
+            </p>
             <p>
                HINWEIS: <br>Nur nutzbar, wenn <br />
                a) URL (extern) und <br />

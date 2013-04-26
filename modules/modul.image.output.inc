@@ -129,65 +129,38 @@
 
          echo "{$divclass_img}";				//Start - Image - DIV
 
-         if("Alt-Title-On" === $rex_img_txt_display)
-         {	// Alt-Title-On
-            if("Alt-Title-Top" === $rex_img_txt_position)
+         if("Alt-Title-Top" === $rex_img_txt_position && "Alt-Title-On" === $rex_img_txt_display)
+         {
+            echo "{$rex_img_txt}<br />";
+         }
+
+         if("JS-On" == $rex_img_js)
+         {	// JS aktiviert
+            if("" != $rex_link_intern)
             {
-               echo "{$rex_img_txt}<br />";
+               echo "<a href=\"{$rex_link_intern}\"
+                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style} fancybox.iframe\" >";
+            }
+            if("" != $rex_link_extern)
+            {
+               echo "<a href=\"{$rex_link_extern}\"
+                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style} fancybox.iframe\">";
             }
 
-            if("JS-On" == $rex_img_js)
-            {	// JS aktiviert
-               if("" == $rex_link_extern)
-               {
-                  echo "<a href=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size_window}&rex_img_file={$rex_img}\"
-                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style}\">";
-               }
-               else
-               {
-                  echo "<a href=\"{$rex_link_extern}\"
-                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style}.iframe\">";
-               }
-
-               echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
-                        title=\"{$rex_img_txt}\" alt=\"{$rex_img}\" />";
-               echo "</a>";
-            }
-            else
-            {	// JS deaktiviert
-               echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
-                           title=\"{$rex_img_txt}\" alt=\"{$rex_img_txt} | {$rex_img}\" />";
-            }
-            if("Alt-Title-Bottom" === $rex_img_txt_position)
-            {
-               echo "<br />{$rex_img_txt}";
-            }
+            echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
+                     title=\"{$rex_img_txt}\" alt=\"{$rex_img}\" />";
+            echo "</a>";
          }
          else
-         {
-            if("JS-On" == $rex_img_js)
-            {	// JS aktiviert
-               if("" == $rex_link_extern)
-               {
-                  echo "<a href=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size_window}&rex_img_file={$rex_img}\"
-                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style}\">";
-               }
-               else
-               {
-                  echo "<a href=\"{$rex_link_extern}\"
-                            title=\"{$rex_img_txt}\" rel=\"group-REX_ARTICLE_ID-REX_SLICE_ID\" class=\"fancyboxStyle{$rex_img_js_style}.iframe\">";
-
-               }
-               echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
+         {	// JS deaktiviert
+            echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
                         title=\"{$rex_img_txt}\" alt=\"{$rex_img_txt} | {$rex_img}\" />";
-               echo "</a>";
-            }
-            else
-            {	// JS deaktiviert
-               echo "<img src=\"{$REX['HTDOCS_PATH']}index.php?rex_img_type=fancybox_resize_{$rex_img_size}&rex_img_file={$rex_img}\"
-                        title=\"{$rex_img_txt}\" alt=\"{$rex_img}\" />";
-            }
          }
+         if("Alt-Title-Bottom" === $rex_img_txt_position && "Alt-Title-On" === $rex_img_txt_display)
+         {
+            echo "<br />{$rex_img_txt}";
+         }
+
          echo "{$divclass_img_end}";			//Start - Image - DIV
       }
    }
