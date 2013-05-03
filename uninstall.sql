@@ -5,8 +5,8 @@
 # Autor: 	G.Seilheimer
 # Company:	contic.de
 # Version: 	1.0.7
-# Update:	2013-04-02
-# CMS:		Redaxo 4.4.1
+# Update:	2013-05-03
+# CMS:		Redaxo 4.5
 #
 #*********************************************
 
