@@ -29,7 +29,7 @@
    $REX['ADDON']['name'][$page]          = 'Fancybox2';
    $REX['ADDON']['rxid'][$page]          = '1071';
    $REX['ADDON']['page'][$page]          = $page;
-   $REX['ADDON']['version'][$page]       = '1.0.6';
+   $REX['ADDON']['version'][$page]       = '1.0.7';
    $REX['ADDON']['author'][$page]        = 'Gilbert Seilheimer';
    $REX['ADDON']['supportpage'][$page]   = 'forum.redaxo.org';
    $REX['ADDON']['perm'][$page]          = $page.'[]';
@@ -67,7 +67,7 @@
       // FUNCTIONS
       //////////////////////////////////////////////////////////////////////////////////
 
-      // sool
+      // toDo...
       /*
       function gs_fancybox_header( $params )
       {
